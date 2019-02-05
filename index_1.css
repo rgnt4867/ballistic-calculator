@@ -1,0 +1,145 @@
+body {
+    background: url(gewer.jpg); /* Цвет фона и путь к файлу */-moz-background-size: cover; /* Firefox 3.6+ */
+    -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ МАСШТАБИРОВАНИЕ*/
+    -o-background-size: cover; /* Opera 9.6+ */
+    background-size: cover; /* Современные браузеры */
+    background-position: center center;
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-attachment: fixed;/* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */    
+    
+   }
+	   .text 
+	   {
+		text-align:  center;
+		color: #800080; /* Цвет текста */
+       }
+       
+   .distance1, .wind_speed1, .direction_wind1
+       {
+        position: absolute;
+		width: 340px;/*ширина рамок*/
+		padding: 10px;/*высота рамок*/ 
+		left: 500px;
+		background: -moz-linear-gradient(#FFF8DC, #FFDEAD);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF8DC), to(#FFDEAD));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF8DC', endColorstr='#FFDEAD');
+        color: #FF0000; /* Цвет текста */
+        border: 1px solid;/*рамка, можно с цветом*/
+        font-weight:bold;
+        font-size:20px;
+        border-radius: 50px;
+       }
+       
+      .distance1
+      {
+        top: 150px;  
+      }
+      .wind_speed1
+       {
+        top: 220px;  
+       }
+      .direction_wind1
+      {
+        top: 290px;  
+       }
+       
+    .distance, .wind_speed, .direction_wind
+       {
+        position: absolute;
+		padding: 10px;/*высота рамок*/ 
+		left: 870px;
+        border: 1px solid;/*рамка, можно с цветом*/
+        font-weight:bold;
+        font-size:20px;
+        border-radius: 50px;
+       }
+       
+       .distance
+      {
+        top: 170px;
+        width: 40px;/*ширина рамок*/
+      }
+      .wind_speed
+       {
+        top: 240px;  
+        width: 40px;/*ширина рамок*/
+       }
+      .direction_wind
+      {
+        top: 310px;  
+        width: 200px;/*ширина рамок*/
+       }
+      
+    .cnop1
+    {
+      width: 260px;/*ширина рамок*/
+	  padding: 10px;/*высота рамок*/
+      position: absolute;
+      left: 640px;
+      border-radius: 50px;
+      top: 380px;
+      background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+	  background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    }
+    
+        .vertical, .horizontal, .vertical11, .horizontal11
+       {
+        position: absolute;
+		width: 195px;/*ширина рамок*/
+		padding: 10px;/*высота рамок*/ 
+		left: 550px;
+		background: -moz-linear-gradient(#A9A9A9, #DCDCDC);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#A9A9A9), to(#DCDCDC));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A9A9A9', endColorstr='#DCDCDC');
+        color: #000000; /* Цвет текста */
+        border: 1px solid;/*рамка, можно с цветом*/
+        font-weight:bold;
+        font-size:20px;
+        border-radius: 10px;
+       }
+       .vertical
+       {
+           top: 420px;
+       }
+       .horizontal
+       {
+           top: 480px;
+       }
+        .vertical11
+       {
+           left: 780px;
+           background: -moz-linear-gradient(#FFFFFF);
+		   background: -webkit-gradient(linear, 0 0, 0 100%, to(#FFFFFF));
+		   filter: progid:DXImageTransform.Microsoft.gradient( endColorstr='#FFFFFF');
+           width: 60px;
+           top: 420px;  
+       }
+       .horizontal11
+       {
+           background: -moz-linear-gradient(#FFFFFF);
+    	   background: -webkit-gradient(linear, 0 0, 0 100%, to(#FFFFFF));
+    	   filter: progid:DXImageTransform.Microsoft.gradient(endColorstr='#FFFFFF');
+           left: 780px;
+           width: 60px;
+           top: 480px;  
+       }
+       
+       .signal
+       {
+        position: absolute;
+		width: 280px;/*ширина рамок*/
+		padding: 8px;/*высота рамок*/ 
+		left: 780px;
+		background: -moz-linear-gradient(#FF0000, #FFDEAD);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF0000), to(#FFDEAD));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#FFDEAD');
+        color: #000000; /* Цвет текста */
+        border: 1px solid;/*рамка, можно с цветом*/
+        font-weight:bold;
+        font-size:20px;
+        border-radius: 20px;
+        top: 415px;
+        
+       }
+       
+       
